@@ -121,4 +121,4 @@ Use a REST client or `curl` to POST abstracts and receive predicted categories.
 
 ## 📧 Contact
 
-For questions or collaboration: *[ismailalhetimi@gmail.com]*
+For questions or collaboration: *ismailalhetimi@gmail.com*
