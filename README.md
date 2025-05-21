@@ -67,7 +67,7 @@ pip freeze > requirements.txt
 From: https://www.kaggle.com/datasets/Cornell-University/arxiv  
 Place the file `arxiv-metadata-oai-snapshot.json` into a directory such as `./data`.
 
-> 📦 If you're unable to upload the dataset to GitHub due to size limits, you can host it externally.  
+> 📦 Saved Models Files.  
 > 🔗 **[Download Dataset from Google Drive](https://drive.google.com/drive/u/0/folders/1d9Dfkptzs_6b3s3Jg0J1dAueQe8skMv8)**
 
 ### 2. Run the Notebook  
@@ -83,10 +83,6 @@ Run the Flask app:
 ```bash
 python app.py
 ```
-
-Use a REST client or `curl` to POST abstracts and receive predicted categories.
-
----
 
 ## 📈 Visualizations Included
 
