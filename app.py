@@ -22,9 +22,9 @@ nltk.download('wordnet')
 # Load pre-trained models and preprocessing objects
 try:
     vectorizer = joblib.load('vectorizer.pkl')
-    lr_model = joblib.load('best_lr_model.pkl')
+    lr_model = joblib.load('logistic_regression_model.pkl.pkl')
     nb_model = joblib.load('naive_bayes_model.pkl')
-    rnn_model = load_model('rnn_model.keras')
+    rnn_model = load_model('best_rnn_model.keras')
     tokenizer = joblib.load('tokenizer.pkl')
     label_encoder = joblib.load('label_encoder.pkl')
 except Exception as e:
